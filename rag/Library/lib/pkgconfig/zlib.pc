@@ -1,0 +1,13 @@
+prefix=C:/Users/rabid/Desktop/internship/hr/rag/Library
+exec_prefix=C:/Users/rabid/Desktop/internship/hr/rag/Library
+libdir=C:/Users/rabid/Desktop/internship/hr/rag/Library/lib
+sharedlibdir=C:/Users/rabid/Desktop/internship/hr/rag/Library/lib
+includedir=C:/Users/rabid/Desktop/internship/hr/rag/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
